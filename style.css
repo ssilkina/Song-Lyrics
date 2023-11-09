@@ -1,0 +1,40 @@
+/* Import, Install, etc. Open Props */
+@import "https://unpkg.com/open-props";
+
+/* Import of OpenProps Colors */
+@import "open-props/colors-hsl"
+
+/* Import of Google Fonts */
+@import url(https://fonts.googleapis.com/css2?family=Quicksand&display=swap);
+url(https://fonts.googleapis.com/css?family=Quicksand);
+
+/* Content Styling */
+body {
+  background : var(--gradient-3);
+  height: 100vh;
+}
+
+/* Main Container */
+main {
+  width: 800px;
+  margin: 0 auto 0 auto;
+  padding: 32px;
+}
+
+audio {
+  width: 100%;
+}
+
+h1 a {
+  font-family: "Quicksand";
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+figure {
+  font-family: "Quicksand";
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
