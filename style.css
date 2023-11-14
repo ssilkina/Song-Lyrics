@@ -4,15 +4,14 @@
 /* Import of OpenProps Colors */
 @import "open-props/colors-hsl"
 
-/* Import of Google Fonts */
-@import url(https://fonts.googleapis.com/css2?family=Quicksand&display=swap);
-url(https://fonts.googleapis.com/css?family=Quicksand);
+/* Import of Font Share */
+
 
 /* Content Styling */
-body {
-  background : var(--gradient-3);
+body{
+  background: var(--gradient-3);
   height: 100vh;
-}
+  }
 
 /* Main Container */
 main {
@@ -21,13 +20,14 @@ main {
   padding: 32px;
 }
 
+/* audio */
 audio {
   width: 100%;
 }
 
 h1 a {
   font-family: "Quicksand";
-  color: white;
+  color: rgb(20, 19, 19);
   text-decoration: none;
   text-align: center;
 }
