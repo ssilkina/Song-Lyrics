@@ -2,9 +2,10 @@
 @import "https://unpkg.com/open-props";
 
 /* Import of OpenProps Colors */
-@import "open-props/colors-hsl"
+@import "open-props/colors-hsl";
 
 /* Import of Font Share */
+@import "fonts/Boska-Light.eot";
 
 
 /* Content Styling */
@@ -20,11 +21,12 @@ main {
   padding: 32px;
 }
 
-/* audio */
+/* audio controls */
 audio {
   width: 100%;
 }
 
+/* Title Styling */
 h1 a {
   font-family: "Quicksand";
   color: rgb(20, 19, 19);
@@ -32,6 +34,7 @@ h1 a {
   text-align: center;
 }
 
+/* Lyrics Styling */
 figure {
   font-family: "Quicksand";
   color: white;
