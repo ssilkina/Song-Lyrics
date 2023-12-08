@@ -33,7 +33,17 @@ Part 5: Process
 
 ## Citations
 [Genius](https://genius.com/Kygo-and-whitney-houston-higher-love-lyrics)
+
 (https://open-props.style/)
+
+favicon.io
+
+audio credits: "Higher Love" by Whitney Houston ft. Kygo
+
+
+
+
+
 
 
 
