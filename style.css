@@ -17,7 +17,7 @@
 
 /* Content Styling */
 body{
-  background: var(--gradient-3);
+  background: white;
   height: 100vh;
   }
 
@@ -26,6 +26,7 @@ main {
   width: 800px;
   margin: 0 auto 0 auto;
   padding: 32px;
+  background : var(--gradient-3);
   -webkit-mask: var(--mask-edge-drip-horizontal);
 }
 
