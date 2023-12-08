@@ -1,6 +1,13 @@
 /* Import, Install, etc. Open Props */
 @import "https://unpkg.com/open-props";
 
+/* Import Fontshare Edges */
+@import "open-props/masks/edges";
+@import "open-props/src/props.masks.edges.css";
+@import "open-props/masks.edges.min.css";
+@import "https://unpkg.com/open-props/masks.edges.min.css";
+@import "open-props/masks/corner-cuts";
+
 /* Import of OpenProps Colors */
 @import "open-props/colors-hsl";
 
@@ -19,24 +26,26 @@ main {
   width: 800px;
   margin: 0 auto 0 auto;
   padding: 32px;
+  -webkit-mask: var(--mask-edge-drip-horizontal);
 }
 
 /* audio controls */
 audio {
   width: 100%;
+  animation: var(--animation-float);
 }
 
 /* Title Styling */
 h1 a {
-  font-family: "Quicksand";
-  color: rgb(20, 19, 19);
+  font-family: var(--font-sans); 
+  color: rgb(255, 255, 255);
   text-decoration: none;
   text-align: center;
 }
 
 /* Lyrics Styling */
 figure {
-  font-family: "Quicksand";
+  font-family: var(--font-sans);
   color: white;
   text-align: center;
   text-decoration: none;
